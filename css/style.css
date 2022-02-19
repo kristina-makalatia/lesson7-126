@@ -1,0 +1,114 @@
+.left-block {
+    width:250px;
+    height: 250px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-block {
+    width:250px;
+    height: 250px;
+    background-color: brown;
+}
+.center-block {
+    width:250px;
+    height: 250px;
+    background-color: yellow;
+}
+.wraper-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* section practice flex */
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    background-color: grey;
+}
+.block {
+    width:370px;
+    height: 374px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.lightblue {
+    background-color: lightblue;
+}
+.red {
+    background-color: red;
+}
+.yellow {
+    background-color: yellow;
+}
+.line1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.blue-box {
+    width:88px;
+    height: 88px;
+    background-color: #325DFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-p {
+    width: 250px;
+    background-color: aquamarine;
+    text-align: center;
+}
+/* .margin-bottom {
+    margin-bottom:30px;
+} */
+
+/* pseudo classes */
+.block:nth-child(1){
+    background-color: blue;
+    margin-bottom: 30px;
+}
+.block:nth-child(2){
+    background-color: red;
+    margin-bottom: 30px;
+}
+.block:nth-child(3){
+    background-color: green;
+     margin-bottom: 30px;
+}
+.block:nth-child(4){
+    background-color: yellow;
+}
+.block:nth-child(5){
+    background-color: pink;
+}
+.block:nth-child(6){
+    background-color:crimson;
+}
+
+/* .block:nth-child(even) {
+    background-color: red;
+}
+.block:nth-child(odd) {
+    background-color: yellow;
+} */
+/* .block:nth-child(2n) {
+    background-color: ;
+} */
+
+.block:nth-child(2) .text-p {
+    color: #fff;
+}
+
+.text-block {
+    width: 770px;
+    margin: 0 auto;
+    background-color: aqua;
+    text-align: center;
+}
